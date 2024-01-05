@@ -8,7 +8,7 @@ TEST_CASE("part1")
 {
   SolutionPart1 solution;
   REQUIRE(solution.Solve(part1::get_input()) == "142");
-  REQUIRE(solution.Solve(part1::get_final_input()) == "temp");
+  REQUIRE(solution.Solve(part1::get_final_input()) == "54304");
 }
 
 TEST_CASE("part2")
