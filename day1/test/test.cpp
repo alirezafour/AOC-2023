@@ -13,6 +13,6 @@ TEST_CASE("part1")
 TEST_CASE("part2")
 {
   SolutionPart2 solution;
-  REQUIRE(solution.Solve(part2::input) == "temp");
-  REQUIRE(solution.Solve(final_input) == "temp");
+  REQUIRE(solution.Solve(part2::input) == "281");
+  REQUIRE(solution.Solve(final_input) == "54418");
 }

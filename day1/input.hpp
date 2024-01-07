@@ -16,7 +16,14 @@ const std::string_view input =
 
 namespace part2
 {
-const std::string_view input = "temp";
+const std::string_view input =
+  "two1nine\n"
+  "eightwothree\n"
+  "abcone2threexyz\n"
+  "xtwone3four\n"
+  "4nineeightseven2\n"
+  "zoneight234\n"
+  "7pqrstsixteen";
 } // namespace part2
 
 /**
