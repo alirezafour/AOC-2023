@@ -10,6 +10,9 @@ project(day0
 # specify the C++ standard
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
+include_directories(
+  ${CMAKE_SOURCE_DIR}
+)
 
 # set(CMAKE_CXX_COMPILER Clang++)
 # set(CMAKE_C_COMPILER Clang)

@@ -3,7 +3,7 @@
 #include <numeric>
 #include <ranges>
 
-std::string SolutionPart1::Solve(const std::string& input)
+std::string SolutionPart1::Solve(std::string_view input)
 {
   // helper views and lambda
   constexpr auto isNotDigit = [](char c) { return isdigit(c) == 0; };
