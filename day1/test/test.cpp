@@ -1,17 +1,15 @@
-#include <catch2/catch_test_macros.hpp>
 #include "SolutionPart1.hpp"
 #include "SolutionPart2.hpp"
 #include "input.hpp"
+#include <catch2/catch_test_macros.hpp>
 
-TEST_CASE("part1")
-{
+TEST_CASE("part1") {
   SolutionPart1 solution;
   REQUIRE(solution.Solve(part1::input) == "142");
   REQUIRE(solution.Solve(final_input) == "54304");
 }
 
-TEST_CASE("part2")
-{
+TEST_CASE("part2") {
   SolutionPart2 solution;
   REQUIRE(solution.Solve(part2::input) == "281");
   REQUIRE(solution.Solve(final_input) == "54418");
