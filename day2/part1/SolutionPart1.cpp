@@ -1,5 +1,3 @@
-#pragma once
-
 #include "SolutionPart1.hpp"
 #include "Game.hpp"
 #include <ranges>
