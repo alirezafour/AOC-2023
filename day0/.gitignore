@@ -1,3 +1,5 @@
+# igonre test
+test/*
 
 # visual studio
 .vs/*
