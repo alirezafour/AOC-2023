@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.24)
+cmake_minimum_required(VERSION 3.28)
 
 #project setup
 project(day0
@@ -6,17 +6,15 @@ project(day0
         LANGUAGES CXX
 )
 
-
-# specify the C++ standard
-set(CMAKE_CXX_STANDARD 20)
+# specify the C++ standard and generator
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
-include_directories(
-  ${CMAKE_SOURCE_DIR}
-)
+set(CMAKE_CXX_EXTENSIONS ON)
+set(CMAKE_GENERATOR "Ninja")
 
-# set(CMAKE_CXX_COMPILER Clang++)
-# set(CMAKE_C_COMPILER Clang)
-# set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+add_library(input)
+target_sources(input PUBLIC FILE_SET CXX_MODULES FILES input.cc)
 
 add_subdirectory(part1)
 add_subdirectory(part2)

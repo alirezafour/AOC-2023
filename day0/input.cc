@@ -1,7 +1,8 @@
-#pragma once
+module;
 #include <string_view>
+export module input;
 
-namespace part1
+export namespace part1
 {
 
 /**
@@ -10,7 +11,7 @@ namespace part1
 const std::string_view input = "temp";
 } // namespace part1
 
-namespace part2
+export namespace part2
 {
 const std::string_view input = "temp";
 } // namespace part2
@@ -18,4 +19,4 @@ const std::string_view input = "temp";
 /**
 * get final input to calculate final answer
 */
-const std::string_view final_input = "temp";
+export const std::string_view final_input = "temp";

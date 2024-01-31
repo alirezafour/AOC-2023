@@ -1,6 +1,7 @@
+import input;
+import SolutionPart2;
+
 #include <iostream>
-#include "input.hpp"
-#include "SolutionPart2.hpp"
 
 int main([[maybe_unused]] int argc, [[maybe_unused]] char* argv[])
 {

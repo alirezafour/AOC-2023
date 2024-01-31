@@ -1,7 +1,8 @@
+import input;
+import SolutionPart1;
+import SolutionPart2;
+
 #include <benchmark/benchmark.h>
-#include "SolutionPart1.hpp"
-#include "SolutionPart2.hpp"
-#include "input.hpp"
 
 // Define part1 benchmark
 static void BM_Part1(benchmark::State& state)

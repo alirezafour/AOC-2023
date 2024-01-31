@@ -1,7 +1,7 @@
 #include <catch2/catch_test_macros.hpp>
-#include "SolutionPart1.hpp"
-#include "SolutionPart2.hpp"
-#include "input.hpp"
+import input;
+import SolutionPart1;
+import SolutionPart2;
 
 TEST_CASE("part1")
 {
