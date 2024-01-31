@@ -21,7 +21,17 @@ const std::string_view input = R"(467..114..
 
 namespace part2
 {
-const std::string_view input = "temp";
+const std::string_view input =
+  R"(467..114..
+...*......
+..35..633.
+......#...
+617*......
+.....+.58.
+..592.....
+......755.
+...$.*....
+.664.598..)";
 } // namespace part2
 
 /**
